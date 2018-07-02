@@ -62,4 +62,18 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+  <repository>
+     <id>test</id>
+     <name>Internal Releases</name>
+     <url>http://52.15.254.253:8080/nexus-latest/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+     <id>test</id>
+     <name>Internal Releases</name>
+     <url>http://52.15.254.253:8080/nexus-latest/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
+
+
 </project>
